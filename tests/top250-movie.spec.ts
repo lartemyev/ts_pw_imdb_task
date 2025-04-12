@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 import { HomePageSteps } from '../steps/home/HomePageSteps';
-import { ChartsPageSteps } from '../steps/charts/ChartsPageSteps';
+import { ChartsPageSteps } from '../steps/home/charts/ChartsPageSteps';
 import { CardDetailsSteps } from '../steps/search/card/CardDetailsSteps';
 
 test('Navigate Top 250 Movies and validate first movie details', async ({ page }) => {

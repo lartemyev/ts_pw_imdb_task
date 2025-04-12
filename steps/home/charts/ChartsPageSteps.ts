@@ -1,5 +1,5 @@
 import { Page, expect } from '@playwright/test';
-import { ChartsPage } from '../../pages/home/charts/ChartsPage';
+import { ChartsPage } from '../../../pages/home/charts/ChartsPage';
 
 export class ChartsPageSteps {
   private page: ChartsPage;
