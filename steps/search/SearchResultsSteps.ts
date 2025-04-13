@@ -9,7 +9,7 @@ export class SearchResultsSteps {
   }
 
   public async clickMovie(movieName: string): Promise<void> {
-    var movieElement = await this.page.getMovie(movieName);
+    const movieElement = await this.page.getMovie(movieName);
     await movieElement.click();
   }
 } 

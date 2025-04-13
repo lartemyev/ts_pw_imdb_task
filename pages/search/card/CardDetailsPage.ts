@@ -15,7 +15,7 @@ export class CardDetailsPage {
 
     async getTitle() {      
       // return this.pageId.locator("//h1[contains(@data-testid,'pageTitle')]/span");
-      return this.pageId.getByTestId('hero__pageTitle').locator('span');
+      return this.page.getByTestId('hero__pageTitle').first().locator('span');
     }
 
     async getRating() {
