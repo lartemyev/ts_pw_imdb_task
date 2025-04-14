@@ -37,3 +37,5 @@ Use Playwright with TypeScript.
 - Movie title is visible.
 - Rating is displayed.
 - Year of release is shown.
+
+**NOTE**: Look for execution results in MR
