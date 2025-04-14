@@ -38,4 +38,4 @@ Use Playwright with TypeScript.
 - Rating is displayed.
 - Year of release is shown.
 
-**NOTE**: Look for execution results in MR
+**NOTE**: Look for execution results in Pull request: https://github.com/lartemyev/ts_pw_imdb_task/pull/1
